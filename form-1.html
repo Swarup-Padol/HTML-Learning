@@ -1,0 +1,63 @@
+<html>
+	<head>
+		<title>Form Tags</title>
+	</head>
+	
+	<body>
+		<fieldset>
+		<legend><h3>Personal Detail</h3></legend>
+		<form action="" method="post" align="center">
+			<label>Name:</label> <input type="text" name="fname" value="" placeholder="Your Answer" /><br /><br />
+			
+			<label>Passward:</label> <input type="password" name="" placeholder="Enter Your Passward"/><br /><br />
+			
+			<label>Gender:</label> <input type="radio" name="gender" id="male"/><label for="male">Male</label> <input type="radio" name="gender" id="female"><label for="female">Female</label><br /><br />
+			
+			<label>Hobbies:</label> <input type="checkbox" name="hobby" id="music"/><label for="music">Music</label> <input type="checkbox" name="hobby" id="Football"><label for="Football">Football</label><br /><br />
+		
+			<label align="top">Message</label><br /><br />
+			<textarea placeholder="Enter Message To Next Genration"></textarea><br><br>
+						
+			<label>Country:</label><select>
+									<option>select your country</option>
+									<option>America</option>
+									<option>Austrila</option>
+									<option>Bagaladesh</option>
+									<option>India</option>
+									<option>Pakestain</option>
+									<option>China</option><br><br>
+								</select>
+								<br><br>
+			<label>Cars:</label><select>
+								<optgroup label="Toyata">
+									<option>Innova</option>
+									<option>Etios</option>
+									<option>Fortuner</option>
+								</optgroup>
+								<optgroup label="Renault">
+									<option>Kwid</option>
+									<option>Duster</option>
+									<option>Caputer</option>
+								</optgroup>
+							</select>
+							<br><br>
+			<label>Cars</label>	<input list="cars">
+								<datalist id="cars">
+									<option value="Innova">
+									<option value="Kwid">
+									<option value="Etios">
+									<option value="Swift">
+									<option value="Duster">
+								</datalist>
+								<br><br>
+			<label>Upload File</label>	<input type="File" accept="image/*" Name=""/>
+			<br><br>
+			<input type="submit" value="Save" />
+			
+			<input type="Reset" value="Reset" />
+			
+			<input type="image" src="images/round_button.png" width="20px" alt="Submit Button" />
+			</fieldset>
+		</form>
+	</body>
+</html>
